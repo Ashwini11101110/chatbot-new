@@ -19,9 +19,7 @@ chatbot_project/
 ├── .gitignore # Git ignore rules
 └── README.md # Project documentation
 
-bash
-Copy
-Edit
+
 
 ## Installation & Setup
 
@@ -32,37 +30,27 @@ git clone https://github.com/Ashwini11101110/chatbot-new.git
 cd chatbot-new
 Create a virtual environment
 
-bash
-Copy
-Edit
+
 python -m venv venv
 Activate the virtual environment
 
 On Windows:
 
-bash
-Copy
-Edit
+
 venv\Scripts\activate
 On macOS/Linux:
 
-bash
-Copy
-Edit
+
 source venv/bin/activate
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 (If you don't have a requirements.txt yet, you can generate it with pip freeze > requirements.txt after installing necessary packages.)
 
 Run the app
 
-bash
-Copy
-Edit
+
 python app.py
 Open your browser
 
